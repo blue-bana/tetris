@@ -18,52 +18,52 @@ impl Tetromino<'_> {
     }
 }
 
-pub static TETRINO_1: &[u8] = &[0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0];
+pub static TETROMINO_1: &[u8] = &[0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0];
 
-pub static TETRINO_2: &[u8] = &[2, 2, 2, 2];
+pub static TETROMINO_2: &[u8] = &[2, 2, 2, 2];
 
-pub static TETRINO_3: &[u8] = &[0, 3, 0, 3, 3, 3, 0, 0, 0];
+pub static TETROMINO_3: &[u8] = &[0, 3, 0, 3, 3, 3, 0, 0, 0];
 
-pub static TETRINO_4: &[u8] = &[0, 4, 4, 4, 4, 0, 0, 0, 0];
+pub static TETROMINO_4: &[u8] = &[0, 4, 4, 4, 4, 0, 0, 0, 0];
 
-pub static TETRINO_5: &[u8] = &[5, 5, 0, 0, 5, 5, 0, 0, 0];
+pub static TETROMINO_5: &[u8] = &[5, 5, 0, 0, 5, 5, 0, 0, 0];
 
-pub static TETRINO_6: &[u8] = &[6, 0, 0, 6, 6, 6, 0, 0, 0];
+pub static TETROMINO_6: &[u8] = &[6, 0, 0, 6, 6, 6, 0, 0, 0];
 
-pub static TETRINO_7: &[u8] = &[0, 0, 7, 7, 7, 7, 0, 0, 0];
+pub static TETROMINO_7: &[u8] = &[0, 0, 7, 7, 7, 7, 0, 0, 0];
 
 pub const TETR_1: Tetromino = Tetromino {
-    data: &TETRINO_1,
+    data: &TETROMINO_1,
     side: 4,
 };
 
 pub const TETR_2: Tetromino = Tetromino {
-    data: &TETRINO_2,
+    data: &TETROMINO_2,
     side: 2,
 };
 
 pub const TETR_3: Tetromino = Tetromino {
-    data: &TETRINO_3,
+    data: &TETROMINO_3,
     side: 3,
 };
 
 pub const TETR_4: Tetromino = Tetromino {
-    data: &TETRINO_4,
+    data: &TETROMINO_4,
     side: 3,
 };
 
 pub const TETR_5: Tetromino = Tetromino {
-    data: &TETRINO_5,
+    data: &TETROMINO_5,
     side: 3,
 };
 
 pub const TETR_6: Tetromino = Tetromino {
-    data: &TETRINO_6,
+    data: &TETROMINO_6,
     side: 3,
 };
 
 pub const TETR_7: Tetromino = Tetromino {
-    data: &TETRINO_7,
+    data: &TETROMINO_7,
     side: 3,
 };
 
