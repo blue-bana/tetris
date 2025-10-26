@@ -227,8 +227,10 @@ impl Game_State {
         let mut faux_level = 0;
         if self.level > 29 {
             faux_level = 29;
+        } else {
+            faux_level = self.level;
         }
-        return (FRAMES_PER_DROP[self.level as usize]) as f32 * TARGET_SECONDS_PER_FRAME;
+        return (FRAMES_PER_DROP[faux_level as usize]) as f32 * TARGET_SECONDS_PER_FRAME;
     }
 
     fn spawn_piece(&mut self) {
